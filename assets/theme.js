@@ -6779,7 +6779,7 @@ theme.Cart = (function() {
         })
         .then(
           function(state) {
-//             this._setCartCountBubble(state.item_count);
+            this._setCartCountBubble(state.item_count);
 
             if (!state.item_count) {
               this._emptyCart();
@@ -8389,7 +8389,7 @@ theme.Product = (function() {
         })
         .then(function(cart) {
           self._setCartQuantity(cart.item_count);
-          self._setCartCountBubble(cart.item_count);
+//           self._setCartCountBubble(cart.item_count);
           self._showCartPopup();
         })
         .catch(function(error) {
