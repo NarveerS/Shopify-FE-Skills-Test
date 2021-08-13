@@ -6779,7 +6779,7 @@ theme.Cart = (function() {
         })
         .then(
           function(state) {
-            this._setCartCountBubble(state.item_count);
+//             this._setCartCountBubble(state.item_count);
 
             if (!state.item_count) {
               this._emptyCart();
