@@ -179,66 +179,10 @@
           "show_locale_selector": true,
           "show_currency_selector": true
         }
-      },
-      "1628701234863898f9": {
-        "type": "featured-product",
-        "settings": {
-          "featured_product": "black-leather-bag",
-          "show_quantity_selector": true,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "media_size": "medium",
-          "enable_image_zoom": false,
-          "enable_video_looping": false
-        }
-      },
-      "162885217067bf94ad": {
-        "type": "featured-product",
-        "settings": {
-          "featured_product": "classic-leather-jacket",
-          "show_quantity_selector": false,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "media_size": "medium",
-          "enable_image_zoom": true,
-          "enable_video_looping": false
-        }
-      },
-      "162885224198919d12": {
-        "type": "featured-product",
-        "settings": {
-          "featured_product": "led-high-tops",
-          "show_quantity_selector": false,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "media_size": "medium",
-          "enable_image_zoom": true,
-          "enable_video_looping": false
-        }
-      },
-      "162885224708903b09": {
-        "type": "featured-product",
-        "settings": {
-          "featured_product": "dark-winter-jacket",
-          "show_quantity_selector": false,
-          "show_vendor": false,
-          "enable_payment_button": true,
-          "show_share_buttons": true,
-          "media_size": "medium",
-          "enable_image_zoom": true,
-          "enable_video_looping": false
-        }
       }
     },
     "content_for_index": [
-      "collection",
-      "1628701234863898f9",
-      "162885217067bf94ad",
-      "162885224198919d12",
-      "162885224708903b09"
+
     ]
   },
   "presets": {
