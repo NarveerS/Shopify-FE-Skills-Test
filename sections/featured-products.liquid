@@ -1,7 +1,14 @@
 {% schema %}
   {
     "name": "Featured Products",
-    "settings": []
+	"class": "index-section index-section--featured-product",
+    "settings": [
+					{
+						"type": "product",
+     					"id": "featured_product",
+						"label": "Product"
+					}
+				]
   }
 {% endschema %}
 
@@ -10,3 +17,5 @@
 
 {% javascript %}
 {% endjavascript %}
+
+
