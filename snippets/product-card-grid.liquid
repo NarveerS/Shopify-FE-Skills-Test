@@ -48,6 +48,30 @@
 
 </div>
 
+<script>
+  let formData = {
+ 'items': [{
+  'id': 36110175633573,
+  'quantity': 2
+  }]
+};
+
+fetch('/cart/add.js', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(formData)
+})
+.then(response => {
+  return response.json();
+})
+.catch((error) => {
+  console.error('Error:', error);
+});
+
+</script>
+
 <form method="post" action="/cart/add">
   <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
   <div>
