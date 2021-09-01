@@ -48,4 +48,12 @@
 
 </div>
 
-
+<form method="post" action="/cart/add">
+  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
+  <div>
+  	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
+  	<div class="clear">&nbsp;</div>
+    <input type="submit" value="Add to Cart" class="btn product-form__cart-submit btn--secondary-accent"/>
+  </div>
+  <br><br><br><br>
+</form>
