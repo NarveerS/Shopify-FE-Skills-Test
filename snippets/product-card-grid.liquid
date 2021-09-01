@@ -49,6 +49,7 @@
 </div>
 
 <script>
+  function clickHandler(){
   let formData = {
  'items': [{
   'id': 36110175633573,
@@ -69,7 +70,7 @@ fetch('/cart/add.js', {
 .catch((error) => {
   console.error('Error:', error);
 });
-
+}
 </script>
 
 <form method="post" action="/cart/add">
@@ -77,7 +78,7 @@ fetch('/cart/add.js', {
   <div>
   	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
   	<div class="clear">&nbsp;</div>
-  	<input type="submit" value="Add to Cart" class="btn product-form__cart-submit btn--secondary-accent"/>
+  	<input type="submit" onclick="clickHandler()" value="Add to Cart" class="btn product-form__cart-submit btn--secondary-accent"/>
   </div>
   <br><br><br><br>
 </form>
