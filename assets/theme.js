@@ -9686,22 +9686,3 @@ function removeImageLoadingAnimation(image) {
     imageWrapper.removeAttribute('data-image-loading-animation');
   }
 }
-
-
-$(document).on('click','.ad_to_cart',function(){ 
-var ID = $(this).find('.ad_to_cart_id').attr("var_id"); 
-$.ajax({
-type: 'POST',
-url: '/cart/add.js',
-data: {
-  quantity: 1,
-  id: $(this).find('.ad_to_cart_id').attr("var_id")
-},
-  dataType: 'json', 
- success: function (data) { 
-  $('#CartCount span:first').text(data.quantity);
-  console.log(data.quantity);
- 
- } 
- });
-}) 
