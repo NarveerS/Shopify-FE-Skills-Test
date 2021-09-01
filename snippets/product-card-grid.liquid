@@ -48,37 +48,12 @@
 
 </div>
 
-<script>
-  function clickHandler(){
-  let formData = {
- 'items': [{
-  'id': 36110175633573,
-  'quantity': 2
-  }]
-};
-
-fetch('/cart/add.js', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(formData)
-})
-.then(response => {
-  return response.json();
-})
-.catch((error) => {
-  console.error('Error:', error);
-});
-}
-</script>
-
 <form method="post" action="/cart/add">
   <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
   <div>
   	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
   	<div class="clear">&nbsp;</div>
-    <button type="button" onclick="clickHandler()" class="btn product-form__cart-submit btn--secondary-accent">Add to Cart</button>
+    <input type="submit" value="Add to Cart" class="btn product-form__cart-submit btn--secondary-accent"/>
   </div>
   <br><br><br><br>
 </form>
