@@ -73,12 +73,5 @@ fetch('/cart/add.js', {
   }
 </script>
 
-<form method="post" action="/cart/add">
-  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
-  <div>
-  	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
-  	<div class="clear">&nbsp;</div>
-    <button type="button" onclick="clickHandler(product.variants.first.id)" class="btn product-form__cart-submit btn--secondary-accent">Add to Cart</button>
-  </div>
-  <br><br><br><br>
-</form>
+<button type="button" onclick="clickHandler(product.variants.first.id)" class="btn product-form__cart-submit btn--secondary-accent">Add to Cart</button>
+
