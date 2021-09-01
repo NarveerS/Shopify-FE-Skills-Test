@@ -49,11 +49,11 @@
 </div>
 
 <form method="post" action="/cart/add">
-  <div style="float:left;">
-  	<input type="hidden" name="id" value="{{product.variants.first.id}}"/>
+  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
+  <div>
   	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
+  	<div class="clear">&nbsp;</div>
+  	<input type="submit" value="Add to Cart" class="btn"/>
   </div>
-  <div class="clear">&nbsp;</div>
-  <input type="submit" value="Add to Cart" class="btn"/>
   <br><br><br><br>
 </form>
