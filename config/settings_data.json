@@ -179,10 +179,21 @@
           "show_locale_selector": true,
           "show_currency_selector": true
         }
+      },
+      "163050229862255eae": {
+        "type": "collection",
+        "settings": {
+          "title": "Featured collection",
+          "collection": "new-products",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": true
+        }
       }
     },
     "content_for_index": [
-
+      "163050229862255eae"
     ]
   },
   "presets": {
