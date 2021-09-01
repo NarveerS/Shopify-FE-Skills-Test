@@ -50,7 +50,12 @@
 
 <script>
   function clickHandler(){
-  
+  let formData = {
+ 'items': [{
+  'id': 36110175633573,
+  'quantity': 2
+  }]
+};
 
 fetch('/cart/add.js', {
   method: 'POST',
