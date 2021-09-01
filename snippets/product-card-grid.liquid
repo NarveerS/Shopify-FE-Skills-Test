@@ -49,8 +49,10 @@
 </div>
 
 <form method="post" action="/cart/add">
-  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
-  <input type="number" min="1" id="quantity" name="quantity" value="1"/>
+  <div>
+  	<input type="hidden" name="id" value="{{product.variants.first.id}}"/>
+  	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
+  </div>
   <div class="clear">&nbsp;</div>
   <input type="submit" value="Add to Cart" class="btn"/>
   <br><br><br><br>
