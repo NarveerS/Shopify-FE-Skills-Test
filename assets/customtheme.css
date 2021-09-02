@@ -1,3 +1,6 @@
+body{
+	border: 4px solid red;
+}
 .button{
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -44,7 +47,4 @@
 	background-color: var(--color-body);
 	color: var(--color-btn-primary-focus);
 	border-color: var(--color-btn-primary-focus);
-}
-body{
-	border: 4px solid red;
 }
