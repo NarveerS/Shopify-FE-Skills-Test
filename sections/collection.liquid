@@ -45,7 +45,10 @@
             {% include 'product-price' %}
           </div>
         </li>
-    	<form method="post" action="/cart/add">
+      {% endfor %}
+    {% endfor %}
+  </ul>
+  <form method="post" action="/cart/add">
   <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
   	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
   	<div class="clear">&nbsp;</div>
@@ -53,9 +56,6 @@
   <br><br><br>
 </form>
 
-      {% endfor %}
-    {% endfor %}
-  </ul>
 
   {% if section.settings.show_view_all %}
     <hr class="hr--invisible" aria-hidden="true" />
