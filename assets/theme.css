@@ -7035,6 +7035,7 @@ hr {
 
 
 .dog-ear:after {
+  position: relative;
   border-bottom:8px solid transparent;
   border-left:8px solid rgba(0,0,0,.08);
 }
