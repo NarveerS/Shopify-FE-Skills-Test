@@ -7005,7 +7005,7 @@ hr {
     border-color: #886cfe;
 }
 
-button {
+.button {
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
