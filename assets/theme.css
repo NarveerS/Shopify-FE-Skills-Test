@@ -7031,6 +7031,22 @@ hr {
     letter-spacing: 0.08em;
     white-space: normal;
     font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
+      .dog-ear:before,
+.dog-ear:after {
+  content: '';
+  display:button;
+  right:0;
+  bottom:0;
+  position:absolute;
+}
+.dog-ear:after {
+  border-bottom:80px solid transparent;
+  border-left:80px solid rgba(0,0,0,.08);
+}
+.dog-ear:before {
+  border:top: 80px solid transparent;
+  border-right:80px solid #886cfe;
+}
 }
 
 .dog-ear:before,
