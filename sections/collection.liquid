@@ -45,6 +45,14 @@
             {% include 'product-price' %}
           </div>
         </li>
+    	<form method="post" action="/cart/add">
+  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
+  	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
+  	<div class="clear">&nbsp;</div>
+  	<button type="button" onclick="clickHandler({{product.variants.first.id}})" class="button">Add to Cart</button>
+  <br><br><br>
+</form>
+
       {% endfor %}
     {% endfor %}
   </ul>
@@ -364,13 +372,6 @@ fetch('/cart/add.js', {
   }
 </script>
 
-<form method="post" action="/cart/add">
-  <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
-  	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
-  	<div class="clear">&nbsp;</div>
-  	<button type="button" onclick="clickHandler({{product.variants.first.id}})" class="button">Add to Cart</button>
-  <br><br><br>
-</form>
 
 <style>
   .button{
