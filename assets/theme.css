@@ -7030,7 +7030,7 @@ hr {
   	border-bottom:8px solid transparent;
   	border-left:8px solid rgba(0,0,0,.08);
   	border:top: 8px solid transparent;
-  	border-right:8px solid #886cfe;
+  	border-right:8px solid white;
     font-family: var(--font-stack-header);
     font-style: var(--font-style-header);
     font-weight: var(--font-weight-header);
