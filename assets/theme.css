@@ -7024,10 +7024,6 @@ hr {
     padding: 8px 15px;
     background-color: #886cfe;
     color: white;
-  	/*right:0;
-  	bottom:0;
-  	position:absolute;*/
-
     font-family: var(--font-stack-header);
     font-style: var(--font-style-header);
     font-weight: var(--font-weight-header);
@@ -7038,11 +7034,11 @@ hr {
 }
 
 
-.button:after {
+.dog-ear:after {
   border-bottom:8px solid transparent;
   border-left:8px solid rgba(0,0,0,.08);
 }
-.button:before {
+.dog-ear:before {
   border:top: 8px solid transparent;
   border-right:8px solid #886cfe;
 }
