@@ -7042,10 +7042,10 @@ hr {
   position:absolute;
 }
 .button:after {
-  border-bottom:80px solid transparent;
-  border-left:80px solid rgba(0,0,0,.08);
+  border-bottom:8px solid transparent;
+  border-left:8px solid rgba(0,0,0,.08);
 }
 .button:before {
-  border:top: 80px solid transparent;
-  border-right:80px solid #886cfe;
+  border:top: 8px solid transparent;
+  border-right:8px solid #886cfe;
 }
