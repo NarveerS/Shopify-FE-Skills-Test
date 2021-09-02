@@ -78,10 +78,7 @@ fetch('/cart/add.js', {
   <input type="hidden" name="id" value="{{product.variants.first.id}}"/>
   	<input type="number" min="1" id="quantity" name="quantity" value="1"/>
   	<div class="clear">&nbsp;</div>
- 	<div>
-  		<button type="button" onclick="clickHandler({{product.variants.first.id}})" 
-        	    class="button button--secondary-accent dog-ear">Add to Cart</button>
-  	</div>
+  	<button type="button" onclick="clickHandler({{product.variants.first.id}})" class="button">Add to Cart</button>
   <br><br><br>
 </form>
 
