@@ -7042,10 +7042,10 @@ hr {
   position:absolute;
 }
 .dog-ear:after {
-  border-bottom:8px solid transparent;
-  border-left:8px solid rgba(0,0,0,.08);
+  border-bottom:80px solid transparent;
+  border-left:80px solid rgba(0,0,0,.08);
 }
 .dog-ear:before {
-  border:top: 8px solid transparent;
-  border-right:8px solid #886cfe;
+  border:top: 80px solid transparent;
+  border-right:80px solid #886cfe;
 }
