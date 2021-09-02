@@ -7027,10 +7027,7 @@ hr {
   	/*right:0;
   	bottom:0;
   	position:absolute;*/
-  	border-bottom:8px solid transparent;
-  	border-left:8px solid rgba(0,0,0,.08);
-  	border:top: 8px solid transparent;
-  	border-right:8px solid #886cfe;
+
     font-family: var(--font-stack-header);
     font-style: var(--font-style-header);
     font-weight: var(--font-weight-header);
@@ -7038,4 +7035,14 @@ hr {
     letter-spacing: 0.08em;
     white-space: normal;
     font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
+}
+
+
+.button:after {
+  border-bottom:8px solid transparent;
+  border-left:8px solid rgba(0,0,0,.08);
+}
+.button:before {
+  border:top: 8px solid transparent;
+  border-right:8px solid #886cfe;
 }
