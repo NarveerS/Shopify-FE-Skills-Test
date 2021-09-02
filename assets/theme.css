@@ -7036,7 +7036,7 @@ hr {
 .dog-ear:before,
 .dog-ear:after {
   content: '';
-  display:block;
+  display:button;
   right:0;
   bottom:0;
   position:absolute;
