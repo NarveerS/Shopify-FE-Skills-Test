@@ -7032,3 +7032,20 @@ hr {
     white-space: normal;
     font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
 }
+
+.dog-ear:before,
+.dog-ear:after {
+  content: '';
+  display:block;
+  right:0;
+  bottom:0;
+  position:absolute;
+}
+.dog-ear:after {
+  border-bottom:8px solid transparent;
+  border-left:8px solid rgba(0,0,0,.08);
+}
+.dog-ear:before {
+  border:top: 8px solid transparent;
+  border-right:8px solid #886cfe;
+}
