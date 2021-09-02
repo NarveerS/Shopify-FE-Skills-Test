@@ -45,3 +45,6 @@
 	color: var(--color-btn-primary-focus);
 	border-color: var(--color-btn-primary-focus);
 }
+body{
+	border: red;
+}
