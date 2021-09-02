@@ -6998,33 +6998,3 @@ hr {
   margin-bottom: 0; }
 
 
-.button{
-  position: relative;
-  border: solid 5px #886cfe;
-  background-color: #886cfe;
-  color: #ffffff;
-  padding: 10px 30px 10px 30px;
-  margin-left: 20px;
-  font-family: var(--font-stack-header);
-  font-style: var(--font-style-header);
-  font-weight: var(--font-weight-header);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  white-space: normal;
-  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
-}
-
-.button:before{
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  right: -5px;
-  border-width: 15px 15px 0 0;
-  border-style: solid;
-  border-color: #6c56cb white white #6c56cb ;
-}
-
-.button:hover{
-  background-color: #ffffff;
-  color: #212121;
-}
