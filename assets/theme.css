@@ -7040,6 +7040,7 @@ hr {
   border-left:8px solid rgba(0,0,0,.08);
 }
 .dog-ear:before {
+  position: relative;
   border:top: 8px solid transparent;
   border-right:8px solid #886cfe;
 }
